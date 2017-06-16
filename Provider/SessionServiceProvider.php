@@ -1,6 +1,6 @@
 <?php
 declare(strict_types=1);
-namespace Viserio\Component\Session\Providers;
+namespace Viserio\Component\Session\Provider;
 
 use Interop\Container\ServiceProvider;
 use Psr\Container\ContainerInterface;
@@ -8,7 +8,7 @@ use Viserio\Component\Contracts\Events\Event as EventContract;
 use Viserio\Component\Contracts\Events\EventManager as EventManagerContract;
 use Viserio\Component\Contracts\Foundation\Terminable as TerminableContract;
 use Viserio\Component\Contracts\Session\Store as StoreContract;
-use Viserio\Component\Session\Handlers\CookieSessionHandler;
+use Viserio\Component\Session\Handler\CookieSessionHandler;
 use Viserio\Component\Session\SessionManager;
 
 class SessionServiceProvider implements ServiceProvider

@@ -1,6 +1,6 @@
 <?php
 declare(strict_types=1);
-namespace Viserio\Component\Session\Proxies;
+namespace Viserio\Component\Session\Proxie;
 
 use Viserio\Component\StaticalProxy\StaticalProxy;
 

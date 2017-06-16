@@ -1,6 +1,6 @@
 <?php
 declare(strict_types=1);
-namespace Viserio\Component\Session\Handlers;
+namespace Viserio\Component\Session\Handler;
 
 use Cake\Chronos\Chronos;
 use SessionHandlerInterface;
