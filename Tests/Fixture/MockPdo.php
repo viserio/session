@@ -1,6 +1,6 @@
 <?php
 declare(strict_types=1);
-namespace Viserio\Component\Session\Tests\Fixtures;
+namespace Viserio\Component\Session\Tests\Fixture;
 
 use PDO;
 
